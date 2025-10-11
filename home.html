@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruits</title>
+  <link rel="shortcut icon" href="./image/images.png" type="image/x-icon">
+  <style>
+    .bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff; 
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7); 
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+    .navbar a {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+    }
+    .btn {
+      font-size: 18px;
+      background-color: #e63946;
+      padding: 12px 30px;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <video autoplay muted loop class="bg-video">
+    <source src="./image/color.mp4" type="video/mp4">
+  </video>
+
+  
+  <div class="container">
+
+    <!-- Logo -->
+    <div style="text-align: center; margin-top: 30px;">
+      <img src="image/logo.png" alt="Logo" style="width: 120px; height: auto;">
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar" style="text-align: center; margin: 30px 0;">
+      <a href="home.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Services.html">Services</a>
+    </div>
+
+    <!-- Hero Section -->
+    <h1 style="font-size: 45px; text-align: center; margin-bottom: 20px;">A new adventure in ice cream</h1>
+
+    <p style="font-size: 18px; text-align: center; line-height: 28px; max-width: 700px; margin: 0 auto 40px auto;">
+      We believe that simple natural food tastes best. <br> 
+      Our ice cream is lovingly handmade in small batches <br>
+      using only simple, natural, and fresh local ingredients full of adventure and discovery.
+    </p>
+
+    <div style="text-align: center; margin-bottom: 50px;">
+      <a class="btn" href="https://www.google.com/">Read more</a>
+    </div>
+
+    <hr style="width: 70%; margin: 40px auto;">
+
+    <!-- Flavours Section -->
+    <h1 style="font-size: 45px; text-align: center; margin-bottom: 30px;">Our Core Flavours</h1>
+
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 50px;">
+      <img style="width: 300px; border-radius: 10px;" src="./image/Icecream cone.png" alt="Ice Cream Cone">
+      <img style="width: 300px; border-radius: 10px;" src="./image/stawberry.png" alt="Strawberry">
+      <img style="width: 300px; border-radius: 10px;" src="./image/icecream.png" alt="Ice Cream">
+    </div>
+
+    <!-- Services -->
+    <h1 style="font-size: 45px; text-align: center; margin-bottom: 30px;">Services</h1>
+    <div style="text-align: center; margin-bottom: 60px;">
+      <video style="width: 50%; height: 60vh; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" 
+             src="./image/cake.mp4" controls></video>
+    </div>
+
+  </div>
+</body>
+</html>

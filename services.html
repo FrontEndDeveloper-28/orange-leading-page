@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="shortcut icon" href="./image/images.png" type="image/x-icon">
+</head>
+  <style>
+    .bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff; 
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7); 
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+    .navbar a {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+    }
+    .btn {
+      font-size: 18px;
+      background-color: #e63946;
+      padding: 12px 30px;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop class="bg-video">
+    <source src="./image/color.mp4" type="video/mp4">
+  </video>
+
+  <!-- Logo -->
+  <div style="text-align: center; margin-top: 30px;">
+    <img src="image/logo.png" alt="Logo" style="width: 120px; height: auto;">
+  </div>
+
+  <!-- Navbar -->
+  <div style="text-align: center; margin: 30px 0;">
+    <a style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #f1cccc;" href="home.html">Home</a>
+    <a style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #f1c3c3;" href="About.html">About</a>
+    <a style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #eeb6b6;" href="Services.html">Services</a>
+  </div>
+
+  <!-- Heading -->
+  <h1 style="font-size: 45px; text-align: center; margin-bottom: 20px;">Our Services</h1>
+
+  <!-- Description -->
+  <p style="font-size: 18px; text-align: center; line-height: 28px; max-width: 700px; margin: 0 auto 40px auto;">
+    We are committed to driving racial equity throughout our business. <br>  
+    We aim to have a workforce and franchise system that reflects the diversity of the communities we serve. <br>  
+    Our focus is on creating positive outcomes and opportunities for all people of color.
+  </p>
+
+  <!-- Button -->
+  <div style="text-align: center; margin-bottom: 50px;">
+    <a style="font-size: 18px; background-color: #e63946; padding: 12px 30px; color: white; text-decoration: none; border-radius: 6px;" 
+       href="https://www.google.com/">Read more</a>
+  </div>
+
+</body>
+</html>
